@@ -32,3 +32,44 @@ This Flutter project demonstrates how to manage user sessions using shared prefe
    git clone https://github.com/AayushPaigwar/flutter-session-management.git
 
    cd flutter-session-management
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+    flutter pub get
+   ```
+
+3. **Run the project:**
+
+   ```bash
+    flutter run
+   ```
+
+## Project Structure
+
+```bash
+flutter-session-management
+├── android
+├── ios
+├── lib
+│   ├── home_page.dart           # Home page UI
+│   ├── login.dart               # Login page UI
+│   └── main.dart                # Main entry point
+├── .gitignore
+├── pubspec.yaml                 # Project dependencies
+├── README.md                    # Project documentation
+└── LICENSE                      # MIT License
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue to improve the project.
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/AayushPaigwar/flutter-session-management/blob/master/LICENSE) for more information.
+
+---
+
+Happy coding! 🚀
