@@ -1,16 +1,73 @@
-# flutter_loginsession
+# Flutter Session Management
 
-A new Flutter project.
+This Flutter project demonstrates how to manage user sessions using shared preferences. It includes a basic login system, session management, and logout functionality.
+
+## Features
+
+- Simple login and logout functionality
+- Persistent login state using shared preferences
+- Example of session management/session handling in Flutter
+
+## Tech Stack
+
+- **Flutter**: For building the mobile application.
+- **Dart**: Programming language used by Flutter.
+- **Shared Preferences**: A Package used for storing key-value pairs on the device.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed
+- Dart installed
+- An editor like VS Code or Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/AayushPaigwar/flutter-session-management.git
+
+   cd flutter-session-management
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+    flutter pub get
+   ```
+
+3. **Run the project:**
+
+   ```bash
+    flutter run
+   ```
+
+## Project Structure
+
+```bash
+flutter-session-management
+├── android
+├── ios
+├── lib
+│   ├── home_page.dart           # Home page UI
+│   ├── login.dart               # Login page UI
+│   └── main.dart                # Main entry point
+├── .gitignore
+├── pubspec.yaml                 # Project dependencies
+├── README.md                    # Project documentation
+└── LICENSE                      # MIT License
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request or open an issue to improve the project.
+
+## License
+
+Distributed under the MIT License. See [LICENSE](https://github.com/AayushPaigwar/flutter-session-management/blob/master/LICENSE) for more information.
+
+---
+
+Happy coding! 🚀
